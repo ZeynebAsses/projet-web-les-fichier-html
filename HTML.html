@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<HTML LANG="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <h1 class="title">Baby Store</h1>
+        
+        <link rel="stylesheet" href ="style.css">
+        
+
+    </head>
+    <body>
+        
+        <header class="header">
+            <div class="top-banner">
+                <img src="R (6).jpg"  class="banner-img">
+                <img src="OIP (26).jpg"  class="banner-img">
+                
+
+            </div>
+        
+            <nav class="navbar">
+                <a href="home.html">Home </a>
+                <a href="a popos.html"> A PROPOS </a>
+                <a href="#Shop"> shop</a>
+                <a href="#Contact"> Contact</a>
+
+            </nav>
+            <DIV CLASS="SEARCH-CONTAINER">
+                <input type="text" placeholder="rechercher...">
+                <button type="button ">rechercher</button>
+            </DIV>
+
+        </header>
+       
+        
+                
+           
+               <p>www.baby-store.tn</p>
+            
+            
+        </main>
+        
+        </section> 
+           <section id="Shop">
+            <section  class="products">
+                <h1>bienvenue chez nous ,voici nous articles</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nom du produit</th>
+                            <TH>Image</TH>
+                            <th>Prix</th>
+
+                       </tr> 
+                </thead>
+                    <tbody>
+                        <tr>
+                          <td>lit en bois </td>
+                           <td><img src="OIP (4).jpg"></td>
+                             <td>550TND</td>
+                        </tr>
+                        <TR>
+                        <td>les biberons</td>
+                        <td><img src="lbf_bouton_entier_1bis.jpg"></td>
+                        <td>135TND</td>
+                        </TR>
+                    
+                    <TR>
+                        <TD>les poussetttes</TD>
+                        <TD><img src="OIP (5).jpg"></TD>
+                        <TD>1600TND</TD>
+                    </TR>
+                    <TR>
+                        <TD>les manteaux</TD>
+                        <TD><img src="OIP (6).jpg"></Td>
+                        <TD>110TND</TD>
+                    </TR>
+                <TR>
+                        <TD>les vetements</TD>
+                        <TD><img src="vetements-naissance-bebe_2.jpg"></TD>
+                        <TD>150TND</TD>
+
+                </TR>
+                   <TR>
+                        <TD>les chaussures</TD>
+                       <TD> <img src="OIP (7).jpg"></TD>
+                        <td>70TND</td>
+                   </tr>
+                    <tr>
+                        <td>pack des chaussettes</td>
+                        <td><img src="R (2).jpg"></td>
+                        <td>40TND</td>
+                    </tr>
+                   <tr>
+                        <td>les sacs</td>
+                       <td><img src="OIP (8).jpg"></td>
+                        <td>120TND</td>
+                    </tr>
+                </tbody>
+                </table>
+                
+            </section>
+            </section><main>
+                <section class="categories">
+                    <h2>choississez une categorie</h2>
+                    <div class="category-buttons">
+                        <a href="lits.html"class="category-btn">les lits</a>
+                        <a href="poussettes.html"class="category-btn">les poussettes</a>
+                        <a href="biberon.html"class="category-btn">les biberons</a>
+                    </div>
+                </section>
+            </main>
+
+            <body>
+                <h2><p>decouvrez nos produit de haute gamme !</p></h2>
+                <a href="produits.html" class="button">afficher d 'autres 4 PRODUIT de haute   gamme</a>
+
+            </body>
+           
+            <header>
+                 <h1>bienvenue dans un monde de douceur et de bonheur pour tout-petits!</h1>
+            </header>
+              <body>
+                <div class="form-container">
+                    <p>pour passer une commande il se fit de choisir votre choix!</p>
+                  <h2>Choisissez un article et une taille</h2>
+                  <form id="baby-order-form">
+                    <label for="article">Article :</label>
+                    <select id="article" name="article" required>
+                      <option value="">Choisissez un article</option>
+                      <option value="Lit en bois">Lit en bois</option>
+                      <option value="Biberons">Biberons</option>
+                      <option value="Poussettes">Poussettes</option>
+                      <option value="Vêtements">Vêtements</option>
+                      <option value="Chaussures">Chaussures</option>
+                      <option value="produit haute gamme"> Produits  haute gamme </option>
+
+                    </select>
+<label for="size">Taille :</label>
+      <select id="size" name="size" required>
+        <option value="">Choisissez une taille</option>
+        <option value="50-56">50-56 cm (Nouveau-né)</option>
+        <option value="62-68">62-68 cm (3-6 mois)</option>
+        <option value="74-80">74-80 cm (6-12 mois)</option>
+        <option value="86-92">86-92 cm (1-2 ans)</option>
+      </select>
+     
+
+      <button type="button" onclick="orderItem()">Commander</button>
+    </form>
+  </div>
+  
+
+            </section>
+            
+         <section id="Contact">
+            <h1>vous pouvez passer votre commande tout en remplir cette formulaire :</h1><title>Formulaire d'inscription</title>
+
+            <div class="form-container">
+              <h2>Inscription</h2>
+              <form action="submit_form.php" method="POST">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+          
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+          
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+          
+                <label for="gender">Genre :</label>
+                <select id="gender" name="gender" required>
+                  <option value="">Sélectionnez</option>
+                  <option value="male">Homme</option>
+                  <option value="female">Femme</option>
+                  <option value="other">Autre</option>
+                </select>
+          
+                <label for="birthdate">Date de naissance :</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+          
+                <button type="submit">S'inscrire</button>
+              </form>
+            </div>
+         </section>
+    
+</div>
+<div class="newsletter">
+    <h2>Inscrivez-vous à notre newsletter</h2>
+    <p>Recevez les dernières nouveautés et offres directement dans votre boîte mail.</p>
+    <form id="newsletterForm">
+        <input type="email" id="email" placeholder="Entrez votre adresse email" required>
+        <button type="submit">S'inscrire</button>
+    </form>
+</div>
+   <H2> VOUS ETES TOUJOURS LES BIENVIENUS</H2>
+          
+         
+         <script src="jv.script.txt"></script>
+
+    </body>
+    
+
+</HTML>
